@@ -1,0 +1,176 @@
+h1 {
+  font-family: sans-serif;
+  color: #232323;
+}
+h2 {
+  font-family: sans-serif;
+  color:#44bba4;
+}
+h3 {
+  font-family: sans-serif;
+  color:#2C3240;
+}
+h4{
+  font-family: sans-serif;
+  color:#808080;
+}
+p {
+  font-family: sans-serif;
+  color:#44bba4;
+}
+.startbild img{
+width:100%;
+align-items: center;
+justify-content: center;
+}
+
+.stycke1 {
+  background-color:#f7ece8;
+}
+
+.stycke1 {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.stycke1 a {
+  color:#4f545c;
+}
+
+.stycke2 img {
+width:30%;
+}
+
+.stycke2{
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.info{
+  display:flex;
+  width: 100%;
+  align-items:center;
+  justify-content:center;
+  padding-left: 5%;
+  padding-right: 5%;
+
+}
+.hej {
+  display:block;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+
+}
+.info_bild img{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  width: 45%;
+
+}
+
+
+.stycke3 img {
+  width:70px;
+}
+.stycke3 {
+  background-color:#f7ece8;
+  text-align:center;
+  align-items:center;
+  margin-bottom: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+
+}
+
+.erfarenhet_info{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+font-family: sans-serif;}
+
+.erfarenhet_info a {
+  color:#4f545c;
+}
+
+.bilbolaget{align-self: baseline;
+padding-left: 2%;
+padding-right: 2%;
+}
+
+.stycke4 {
+  width:100%;
+  text-align: center;
+margin-bottom: 5%}
+
+.stycke4 img {
+  width:30px;}
+
+.stycke5{
+  background-color: #f7ece8;
+  width:100%;
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  }
+
+
+
+@media (max-width: 600px) {
+
+
+  .startbild{
+    width:auto;
+    align-items: center;
+    justify-content: center;
+    }
+
+ .info{
+  display:flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content:center;
+  padding-left: 0%;
+  padding-right: 0%;
+  }
+    .hej {
+  display:block;
+  align-items:center;
+  text-align: center;
+  justify-content: center;
+  width: 50%;
+  }
+
+    .info_bild img{
+  display:block;
+  align-items:center;
+  justify-content:center;
+  width: 101%;
+}
+
+ .stycke3 img {
+        width:50px;
+      }
+
+ .erfarenhet_info {
+        display:flex;
+        
+        align-items:center;
+        justify-content:center;
+
+  }
+  .bilbolaget {align-self: baseline;
+  }
+
+  .stycke4 img {
+        width:50%;}
+
+
+
+}
